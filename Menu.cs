@@ -1,5 +1,7 @@
 ﻿namespace ContactList
 {
+  using contactlist.Logic;
+
   internal static class Menu
   {
     public static void ShowMenu()
