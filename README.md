@@ -22,7 +22,32 @@ A simple, beginner-friendly C# console application that allows users to manage a
 
 ### Installation
 
-1. Clone the repository:
+After forking repository to your account, follow these steps to set up the project locally:
+
+#### Clone the Repository
+
+```bash
+git clone https://github.com/<your_github_name>/contact_list.git
+```
+
+#### Navigate to the Project Directory
+```bash
+cd contact_list
+```
+
+#### Open the Solution
+
+Open the `ContactList.sln` file in Visual Studio or your preferred code editor.
+
+#### Make your changes
+
+Open the `Program.cs` file and start playing with my project!
+
+#### Make a pull request
+
+1. Commit your changes to a new branch.
+2. Push the branch to your forked repository.
+3. Open a pull request to the original repository.
 
 ## Learning Takeways
 
@@ -36,5 +61,5 @@ A simple, beginner-friendly C# console application that allows users to manage a
 Created mostly by [Ravael](https://github.com/ravaeljasny), with some help from online resources and communities.
 
 Also, big thanks to all the people brainstormed and improved project with me:
-- Max, My Personal C# Mentor: For guidance and support throughout the project.
-- Tetris, my friend: for being live coding buddy and idea giver.
+- Max, my personal C# Mentor: For guidance and support throughout the project.
+- Tetris, my friend: For being live coding buddy and idea giver.

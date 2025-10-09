@@ -5,6 +5,36 @@
     <TargetFramework>net9.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
+	<EnableNETAnalyzers>true</EnableNETAnalyzers>
+	<AnalysisMode>AllEnabledByDefault</AnalysisMode>
   </PropertyGroup>
+
+  <ItemGroup>
+    <EditorConfigFiles Remove="G:\.NET\Projects\contact_list\.editorconfig" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Remove="README.md" />
+    <None Remove="stylecop.json" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ApplicationDefinition Include="README.md" />
+  </ItemGroup>
+	
+  <ItemGroup>
+    <None Include="G:\.NET\Projects\contact_list\.editorconfig" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="StyleCop.Analyzers" Version="1.1.118">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="stylecop.json" />
+  </ItemGroup>
 
 </Project>
